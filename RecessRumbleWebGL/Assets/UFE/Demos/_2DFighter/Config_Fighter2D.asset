@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   selectedStage:
-    stageName: AZOTEA
+    stageName: DISTRITO
     stageLoadingMethod: 0
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/Rooftop/Rooftop.unity
-    screenshot: {fileID: 2800000, guid: 702f64d620f51f74aae51966110fa66f, type: 3}
-    prefab: {fileID: 100000, guid: 5520d39aec5319c4f951d422938cca6b, type: 3}
-    music: {fileID: 8300000, guid: d5e75ed7535fcb445a86030fda8601a1, type: 3}
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 0206f7788a936504ea9fef227be03587, type: 3}
+    prefab: {fileID: 100000, guid: e76a2ddcb709d734b8e263d0d9ada407, type: 3}
+    music: {fileID: 0}
     _groundFriction:
-      _serializedValue: 515396075520
+      _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -64424509440
+      _serializedValue: -51539607552
     _rightBoundary:
-      _serializedValue: 68719476736
+      _serializedValue: 51539607552
     position:
       x:
         _serializedValue: 0
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1321,6 +1321,101 @@ MonoBehaviour:
       _serializedValue: -68719476736
     _rightBoundary:
       _serializedValue: 73014444032
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: "BA\xD1OS"
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: ab3cd21feaca021499d98f59a209911c, type: 3}
+    prefab: {fileID: 100000, guid: e41c7070d44c9c04893105c8302680d9, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -51539607552
+    _rightBoundary:
+      _serializedValue: 51539607552
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: ARCADE
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: d7d32d9ed69e11a4394d40104177a9ca, type: 3}
+    prefab: {fileID: 100000, guid: d144ac646cec2b84a96ecf7b8014f009, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -51539607552
+    _rightBoundary:
+      _serializedValue: 51539607552
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: DOJO
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: fa9f2c8d8761bcf489f55cec127399f2, type: 3}
+    prefab: {fileID: 100000, guid: b1ad0c9c51b3c9344a398b9009a8d651, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -51539607552
+    _rightBoundary:
+      _serializedValue: 51539607552
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: DISTRITO
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 0206f7788a936504ea9fef227be03587, type: 3}
+    prefab: {fileID: 100000, guid: e76a2ddcb709d734b8e263d0d9ada407, type: 3}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -51539607552
+    _rightBoundary:
+      _serializedValue: 51539607552
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  - stageName: BLOCKEADO
+    stageLoadingMethod: 2
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 8564c95b009dd4d46b14a29a632bb148, type: 3}
+    prefab: {fileID: 0}
+    music: {fileID: 0}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -163208757248
+    _rightBoundary:
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -1781,10 +1876,10 @@ MonoBehaviour:
     enableNetworkSyncTest: 0
     synchronizationMessageFrequency: 2
     synchronizationAction: 1
-  music: 1
-  musicVolume: 0.03354014
-  soundfx: 1
-  soundfxVolume: 0.5
+  music: 0
+  musicVolume: 1
+  soundfx: 0
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

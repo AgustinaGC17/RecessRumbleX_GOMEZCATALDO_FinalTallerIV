@@ -694,6 +694,10 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -707,10 +711,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: b6438359-e3f4-400a-8373-e2dff617ac62
+  cloudProjectId: bfaa4472-1d0f-45cb-a237-2d8cfcb615aa
   framebufferDepthMemorylessMode: 0
   projectName: RecessRumbleWebGL
-  organizationId: franco-kees
+  organizationId: unity_rjdnyl1vo_cmiw
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
