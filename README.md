@@ -3,7 +3,7 @@ Este es una modificación sobre el juego Recess Rumble X para el final de Taller
 
 Profesor: Eduardo Rodriguez Ortega
 
-Alumno: Franco Yair Kees
+Alumno: Juan Manuel Artigau
 
 Link del proyecto original: https://taller4.itch.io/recess-rumble-x
 
